@@ -1,4 +1,5 @@
 googletest/
+run_tests/
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
