@@ -31,33 +31,47 @@ private:
 class Circle : virtual public Position
 {
 public:
-    Circle() = delete;
+    Circle() = default;
 
     Circle(double r): Position(), r_(r) {}
+    {
+        std::cout << "Circle";
+    }
 
-    Circle(double x, double y, double r): Position(x, y), r_(r) {}
+    Circle(double x, double y, double r): Position(x, y), r_(r) {ё}
+    
 
 private:
-    unsigned double r_;
+    double r_;
 };
 
 class Square : virtual public Position
 {
 public:
-    Square() = delete;
+    Square() = default;
 
     Square(double len): Position(), len_(len) {}
+    {
+        std::cout << "Square";
+    }
 
     Square(double x, double y, double len): Position(x, y), len_(len) {}
     
+    
 private:
-    unsigned double len_;
+    double len_;
 };
 
 class CircleInSquare : public Circle, public Square
 {
 public:
+    //CircleInSquare() = delete;
 
-private:
-    
+    CircleInSquare(double len): r_(len / 2), len_(len) {}
+
+    CircleInSquare(double x, double y, double len): Position(x, y), r_(len / 2), len_(len) 
+    {
+        std::cout << "\nCircleInSquare\n";
+    }
+
 };

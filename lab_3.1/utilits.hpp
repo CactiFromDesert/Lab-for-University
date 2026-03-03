@@ -33,8 +33,12 @@ T get_num(T min = std::numeric_limits<T>::min(), T max = std::numeric_limits<T>:
             std::cin.clear();
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
             std::cout << "You are wrong; repeat please!\n";
+            std::cout << 
         }
         else
+            {
+                number=null;
+            }
             return number;
     }
 }

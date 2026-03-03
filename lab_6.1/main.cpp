@@ -1,4 +1,5 @@
 #include "task.hpp"
+#include "Stack.hpp"
 
 int main()
 {
