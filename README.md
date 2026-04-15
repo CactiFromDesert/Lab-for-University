@@ -1,0 +1,41 @@
+# Лабораторные работы по C++ (Московский Политех)
+
+В этом репозитории хранятся мои лабораторные работы, выполненные в течение первого курса университета «Московский Политех» 
+под руководством ментора с коммерческим опытом (Middle-разработчик).
+
+### Что было изучено и реализовано:
+
+- Стиль и архитектура кода: разделение на заголовочные (.h) и исходные (.cpp) файлы, инкапсуляция, логическая декомпозиция функций.
+- Система сборки: написание Makefile с флагами компиляции (Wall, Wextra, Werror, O2), отладка (gdb, санитайзеры).
+- Основы ООП: классы, структуры, перегрузка функций и операторов, наследование классов.
+- Работа с памятью и структуры данных: динамические и статические массивы, стек, дек, очередь, односвязные/двусвязные списки.
+- Тестирование: базовые тесты для проверки корректности функций (папка `for_tests/`).
+
+### Особенности работ:
+- К каждой лабораторной приложены файлы с оригинальными формулировками заданий.
+- Добавлены дополнительные задания от менера для улучшения читаемости и логики кода.
+- Имеются папки с тестированием.
+
+Стек: C++17/20, Make, g++/Valgrind.
+
+############################################################################################################################################
+
+# C++ Labs (Moscow Polytechnic University)
+
+This repository contains my labs completed during my first year at Moscow Polytechnic University
+under the guidance of a mentor with commercial experience (Middle Developer).
+
+### What was learned and implemented:
+
+- Code style and architecture: separation into header (.h) and source (.cpp) files, encapsulation, logical decomposition of functions.
+- Build system: writing Makefiles with compilation flags (Wall, Wextra, Werror, O2), debugging (gdb, sanitizers).
+- OOP fundamentals: classes, structures, function and operator overloading, class inheritance.
+- Working with memory and data structures: dynamic and static arrays, stack, deque, queue, singly/doubly linked lists.
+- Testing: Basic tests to verify the correctness of functions (folder `for_tests/`).
+
+### Specific features:
+- Each lab includes files with the original assignment formulations.
+- Additional assignments from the manager have been added to improve the readability and logic of the code.
+- Test folders are available.
+
+Stack: C++17/20, Make, g++/Valgrind.
